@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../dist/output.css" rel="stylesheet" />
+		<title>Create Account</title>
+	</head>
+	<body class="bg-card-fill">
+		<main
+			class="relative m-auto flex flex-col gap-3 items-start flex-shrink-0 pb-5 px-[15px] w-[390px] h-[824px] bg-neutral-1000"
+		>
+			<!-- Navigation Bar -->
+			<nav class="relative flex gap-5 items-center w-full py-3 self-stretch bg-neutral-1000">
+				<a href="./login.html">
+					<img src="../public/images/cross-cancel.svg" alt="100x Logo" class="" />
+				</a>
+
+				<p class="font-bold font-inter text-[15px] text-neutral-50">Step 1 of 4</p>
+			</nav>
+
+			<section class="flex flex-col items-start self-stretch gap-8 bg-neutral-1000">
+				<!-- Create your account heading -->
+				<h1 class="text-2xl leading-normal font-inter font-bold text-neutral-50">
+					Create your account
+				</h1>
+
+				<!-- Name Input -->
+				<div
+					class="group relative flex w-full px-3 py-4 border border-neutral-500 border-solid rounded-[4px] focus-within:border-twitter-blue-default"
+				>
+					<input
+						type="text"
+						placeholder="Label"
+						class="group flex-1 w-full h-full placeholder-neutral-500 bg-transparent font-inter text-neutral-50 font-normal leading-normal text-xl outline-none"
+					/>
+
+					<div
+						class="group absolute top-[-9px] left-[19px] px-1 bg-black text-neutral-500 text-xs group-focus-within:text-twitter-blue-default"
+					>
+						Label
+					</div>
+				</div>
+
+				<!-- Email Input -->
+				<div
+					class="group relative flex w-full px-3 py-4 border border-neutral-500 border-solid rounded-[4px] focus-within:border-twitter-blue-default"
+				>
+					<input
+						type="text"
+						placeholder="Email"
+						class="group flex-1 w-full h-full placeholder-neutral-500 bg-transparent font-inter text-neutral-50 font-normal leading-normal text-xl outline-none"
+					/>
+
+					<div
+						class="group absolute top-[-9px] left-[19px] px-1 bg-black text-neutral-500 text-xs group-focus-within:text-twitter-blue-default"
+					>
+						Email
+					</div>
+				</div>
+
+				<!-- DOB Heading and Message -->
+				<div class="flex flex-col items-start gap-2 self-stretch">
+					<h3 class="font-bold font-inter text-[15px] text-neutral-50">Date of birth</h3>
+
+					<p class="font-inter text-[14px] text-secondary">
+						This will not be shown publicly. Confirm your own age, even if this account
+						is for a business, a pet, or something else.
+					</p>
+				</div>
+
+				<!-- Date Pickers -->
+
+				<div class="flex items-center gap-3 self-stretch">
+					<!-- Month -->
+					<div
+						class="group relative flex w-1/2 px-3 py-4 border border-neutral-500 border-solid rounded-[4px] focus-within:border-twitter-blue-default"
+					>
+						<input
+							type="text"
+							class="group flex-1 w-full h-full placeholder-neutral-500 bg-transparent font-inter text-neutral-50 font-normal leading-normal text-xl outline-none"
+						/>
+
+						<div
+							class="group absolute top-[-9px] left-[19px] px-1 bg-black text-neutral-500 text-xs group-focus-within:text-twitter-blue-default"
+						>
+							Month
+						</div>
+
+						<img src="../public/images/dropdown.svg" />
+					</div>
+
+					<!-- Day -->
+					<div
+						class="group relative flex w-1/4 px-3 py-4 border border-neutral-500 border-solid rounded-[4px] focus-within:border-twitter-blue-default"
+					>
+						<input
+							type="text"
+							class="group flex-1 w-full h-full placeholder-neutral-500 bg-transparent font-inter text-neutral-50 font-normal leading-normal text-xl outline-none"
+						/>
+
+						<div
+							class="group absolute top-[-9px] left-[19px] px-1 bg-black text-neutral-500 text-xs group-focus-within:text-twitter-blue-default"
+						>
+							Day
+						</div>
+
+						<img src="../public/images/dropdown.svg" />
+					</div>
+
+					<!-- Year -->
+					<div
+						class="group relative flex w-1/4 px-3 py-4 border border-neutral-500 border-solid rounded-[4px] focus-within:border-twitter-blue-default"
+					>
+						<input
+							type="text"
+							class="group flex-1 w-full h-full placeholder-neutral-500 bg-transparent font-inter text-neutral-50 font-normal leading-normal text-xl outline-none"
+						/>
+
+						<div
+							class="group absolute top-[-9px] left-[19px] px-1 bg-black text-neutral-500 text-xs group-focus-within:text-twitter-blue-default"
+						>
+							Year
+						</div>
+
+						<img src="../public/images/dropdown.svg" />
+					</div>
+				</div>
+			</section>
+
+			<!-- Bottom of page -->
+			<section
+				class="flex flex-col items-center justify-end h-full w-full gap-2.5 self-stretch"
+			>
+				<button
+					onclick="location.href='./sign-up-2.html'"
+					class="w-[334px] flex px-6 py-2 bg-neutral-500 justify-center items-center gap-[10px] rounded-[65px] shadow-hover1 backdrop-blur-[23.668209075927734px] m-5"
+				>
+					<div class="font-inter text-base font-bold leading-normal text-neutral-1000">
+						Create Account
+					</div>
+				</button>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../dist/output.css" rel="stylesheet" />
+		<title>Login</title>
+	</head>
+
+	<body class="bg-card-fill">
+		<main
+			class="relative m-auto flex flex-col w-[390px] justify-center h-[868px] flex-shrink-0 bg-neutral-1000"
+		>
+			<!-- 100 Title -->
+			<nav class="absolute top-0 gap-32 w-full px-4 py-3 mt-3">
+				<img src="../public/images/100x.svg" alt="100x Logo" class="m-auto" />
+			</nav>
+
+			<section class="flex flex-col gap-10 px-7 py-0 items-start">
+				<!-- Headings -->
+				<div class="flex flex-col items-start gap-3">
+					<h1 class="font-inter text-[31px] font-bold leading-normal text-neutral-50">
+						Happening now
+					</h1>
+					<h2 class="font-inter text-[16px] font-bold leading-normal text-neutral-50">
+						Join today.
+					</h2>
+				</div>
+
+				<!-- Create Account -->
+				<button
+					onclick="location.href='./sign-up-1.html'"
+					class="flex self-stretch gap-2.5 px-6 py-2 bg-neutral-50 justify-center items-center rounded-[65px] shadow-hover1 hover:bg-neutral-200 backdrop-blur-[23.668209075927734px]"
+				>
+					<div class="font-inter text-base font-bold leading-normal text-neutral-1000">
+						Create Account
+					</div>
+				</button>
+
+				<!-- Divider -->
+				<div class="flex items-center justify-center gap-1 self-stretch">
+					<div class="w-[172px] h-[1px] bg-[#404040]"></div>
+					<p class="text-center font-inter font-base text-neutral-50">or</p>
+					<div class="w-[172px] h-[1px] bg-[#404040]"></div>
+				</div>
+
+				<!-- Sign in -->
+				<div class="flex flex-col self-stretch gap-5">
+					<p class="font-inter text-[15px] font-medium text-neutral-50">
+						Already have an account?
+					</p>
+
+					<!-- Sign in button -->
+					<button
+						class="flex justify-center items-center self-stretch gap-2.5 px-6 py-2 border-[2px] border-stroke rounded-[65px] shadow-hover1 backdrop-blur-[23.668209075927734px]"
+					>
+						<div
+							class="font-inter text-base font-bold leading-normal text-twitter-blue-default"
+						>
+							Sign in
+						</div>
+					</button>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
